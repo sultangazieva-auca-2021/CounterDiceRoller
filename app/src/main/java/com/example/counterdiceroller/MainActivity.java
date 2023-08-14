@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         if (item.getItemId() == R.id.diceRoll || item.getItemId() == R.id.dice) {
-            Intent intent = new Intent(getBaseContext(), MainActivity2.class);
+            Intent intent = new Intent(getBaseContext(), DiceRollerActivity.class);
             startActivity(intent);
             Toast.makeText(this, "DICE ROLLER OPENED", Toast.LENGTH_SHORT).show();
         } else if (item.getItemId() == R.id.restart) {

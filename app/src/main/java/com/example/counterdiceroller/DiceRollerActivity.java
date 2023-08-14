@@ -10,17 +10,17 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
-import com.example.counterdiceroller.databinding.ActivityMain2Binding;
+import com.example.counterdiceroller.databinding.ActivityDiceRollerBinding;
 
-public class MainActivity2 extends AppCompatActivity {
-    private ActivityMain2Binding binding;
+public class DiceRollerActivity extends AppCompatActivity {
+    private ActivityDiceRollerBinding binding;
 
 //    private Toolbar toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        binding = ActivityMain2Binding.inflate(getLayoutInflater());
+        binding = ActivityDiceRollerBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
 //        toolbar = findViewById(R.id.toolbar2);

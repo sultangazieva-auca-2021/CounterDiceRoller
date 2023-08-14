@@ -9,7 +9,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
-            android:name=".MainActivity2"
+            android:name=".DiceRollerActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
