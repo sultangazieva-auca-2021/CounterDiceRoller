@@ -1,3 +1,16 @@
 <resources>
-    <string name="app_name">Counter&amp;DiceRoller</string>
+    <string name="app_name">module14_savestate</string>
+    <string name="increment">Increment</string>
+    <string name="zero">0</string>
+    <string name="random_color_string">Random Color</string>
+    <string name="switch_visibility">Switch Visibility</string>
+    <string name="restart">RESTART</string>
+    <string name="dice">DICE</string>
+    <string name="more">MORE</string>
+    <string name="dice_roller">DICE ROLLER</string>
+    <string name="throw_dice">THROW</string>
+    <string name="counterTitle">COUNTER</string>
+    <string name="counterMenu">COUNTER</string>
+    <string name="dice_image">dice_image</string>
+    <string name="dice_number">1</string>
 </resources>

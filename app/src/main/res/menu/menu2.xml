@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/restart"
+        android:title="@string/restart" />
+
+    <item
+        android:id="@+id/counterIcon"
+        android:title="@string/counterTitle"
+        app:showAsAction="always"
+        android:icon="@drawable/counter_clock" />
+
+    <item
+        android:id="@+id/menuCounter"
+        android:title="@string/counterMenu" />
+
+    <item
+        android:id="@+id/op3"
+        android:title="@string/more" >
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/inner1"
+                    android:title="inner option1" />
+
+                <item
+                    android:id="@+id/inner2"
+                    android:title="inner option2" />
+            </group>
+        </menu>
+    </item>
+</menu>
